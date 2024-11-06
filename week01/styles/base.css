@@ -1,0 +1,76 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffe6f2; /* Light pink background */
+}
+
+header, main, footer {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: #ffccdd; /* Pink background for main containers */
+}
+
+h1 {
+    font-size: 24px;
+    color: #b30047; /* Dark pink color for heading text */
+    text-align: center;
+}
+
+/* Navigation Menu */
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ff66b2; /* Pink color for links */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #e60073; /* Darker pink on hover */
+}
+
+/* Main Section */
+.card {
+    border: 1px solid #ff99bb; /* Light pink border */
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #ffffff; /* White background for cards */
+}
+
+.card h2 {
+    font-size: 20px;
+    color: #b30047; /* Dark pink color for card headings */
+    margin-bottom: 10px;
+}
+
+.card p, .card ul {
+    color: #666;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+}
+
+footer p {
+    margin: 5px 0;
+}
